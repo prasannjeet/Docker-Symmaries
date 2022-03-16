@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+    ocaml:
+        tty: true
+        container_name: symmaries
+        image: prasannjeet/symmaries:0.2.10
+        volumes:
+            - "/absolute/location/where/meth/folder/is/located:/home/opam/output"
